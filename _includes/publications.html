@@ -7,11 +7,11 @@
 		<td width="2%" style="border: none"></td>
 		<td width="60%" style="border: none">
 		<p>
-			<b><big><big>{{ include.title }}</big></big></b>
+			<b>{{ include.title }}</b>
 			<br>
-			<big>{{ include.author_list }}</big>
+			{{ include.author_list }}
       <br>
-      <big>{{ include.published_in }}</big>
+      {{ include.published_in }}
 			<br>
 			<a href="{{ include.url }}"> [Paper]</a>
 			{% if include.code_url %}
