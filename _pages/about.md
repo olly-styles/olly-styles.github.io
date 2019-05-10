@@ -15,4 +15,4 @@ Publications
 Forecasting Pedestrian Trajectory with Machine-Annotated Training Data
 O. Styles, A. Ross, V. Sanchez
 2019 IEEE Intelligent Vehicles Symposium (IV).
-<img style="float: right;" src="iv2019.jpg">
+<img style="float: right;" src="./images/iv2019.jpg">
