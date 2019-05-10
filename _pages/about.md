@@ -20,7 +20,7 @@ Research
 <table style="border: none">  
 	{%  include publications.html
 		img_path="mof.png"  
-		title="Multiple object forecasting"
+		title="Multiple Object Forecasting"
 		published_in="Coming soon"
 	%}
 
@@ -65,14 +65,14 @@ Experience
 	{%  include experience.html
 		url="https://iprobe.cse.msu.edu/index.php"
 		img_path="msu.png"
-		title="Visiting researcher"
+		title="Visiting Researcher"
 		author_list="Supervisor: Dr. Arun Ross"
     published_in="Sep 2018 - Dec 2018"
 	%}
 	{%  include experience.html
 		url="https://sydney.edu.au/"
 		img_path="usyd.png"
-		title="Visiting researcher"
+		title="Visiting Researcher"
 		author_list="Supervisor: Dr. Dong Xu"
     published_in="Mar 2018 - Jul 2018"
 	%}
@@ -101,7 +101,7 @@ Education
 	{%  include education.html
 		url="https://www.ust.hk/home"
 		img_path="hkust.png"
-		title="Intercalated year"
+		title="Intercalated Year"
 		author_list="Supervisor: Prof. Dit-Yan Yeung"
     published_in="Aug 2015 - Jun 2016"
 	%}
