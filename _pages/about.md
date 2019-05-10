@@ -13,4 +13,4 @@ Publications
 ======
 Forecasting Pedestrian Trajectory with Machine-Annotated Training
 Data
-![IV 2019](/_images/iv19.png "IV 2019")
+![IV 2019](/images/iv19.png "IV 2019")
