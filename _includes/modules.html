@@ -1,10 +1,4 @@
 <tr style="border: none">
-		<td width="30%" style="border: none;">
-			<a href="{{ include.url }}">
-				<img src="images/{{ include.img_path }}" style="width: 100%">
-			</a>
-		</td>
-		<td width="2%" style="border: none"></td>
 		<td width="68%" style="border: none">
 		<p>
 			<b>{{ include.title }}</b>
@@ -13,7 +7,7 @@
       <br>
       {{ include.published_in }}
 			<br>
-			<a href="{{ include.url }}"> [Paper]</a>
+			<a href="{{ include.url }}"> [Webpage]</a>
 			{% if include.code_url %}
 			<a href="{{ include.code_url }}"> [Code]</a>
 			{% endif %}
@@ -25,4 +19,11 @@
 			{% endif %}
 		</p>
   </td>
+  <td width="2%" style="border: none"></td>
+		<td width="30%" style="border: none;">
+			<a href="{{ include.url }}">
+				<img src="images/{{ include.img_path }}" style="width: 100%">
+			</a>
+		</td>
+
 </tr>

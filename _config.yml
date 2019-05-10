@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Olly Styles"
 title_separator          : "-"
 name                     : "Olly Styles"
-description              : &description "PhD student at the University of Warwick"
+description              : &description "Research interests:  Deep learning, autonomous driving, computer vision"
 url                      : https://olly-styles.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "olly-styles/olly-styles.github.io"
@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Olly Styles"
   avatar           : "olly.png"
-  bio              : "PhD student at the University of Warwick"
+  bio              : "Research interests:  Deep learning, autonomous driving, computer vision"
   location         : "Coventry, England"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -95,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/olly-styles"
+  github           : "olly-styles"
   google_plus      :
   keybase          :
   instagram        :
