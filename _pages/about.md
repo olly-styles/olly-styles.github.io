@@ -8,9 +8,11 @@ redirect_from:
   - /about.html
 ---
 
+Second year PhD student at the University of Warwick.
 
 Publications
 ======
-Forecasting Pedestrian Trajectory with Machine-Annotated Training
-Data
-![IV 2019](/images/iv19.png "IV 2019")
+Forecasting Pedestrian Trajectory with Machine-Annotated Training Data
+O. Styles, A. Ross, V. Sanchez
+2019 IEEE Intelligent Vehicles Symposium (IV).
+<img style="float: right;" src="iv2019.jpg">
