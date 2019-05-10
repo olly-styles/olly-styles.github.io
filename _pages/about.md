@@ -13,12 +13,14 @@ Second year PhD student at the University of Warwick. <br>
 
 Publications
 ======
-<table style="border: none">
+<table style="border: none">  
 	{%  include publications.html
 		url="https://arxiv.org/pdf/1905.03681.pdf"
 		img_path="iv2019.png"
 		title="Forecasting Pedestrian Trajectory with Machine-annotated Training Data"
 		author_list="<u>Olly Styles</u>, Arun Ross, Victor Sanchez"
 		published_in="IV 2019"
+    code_url="https://github.com/olly-styles/Dynamic-Trajectory-Predictor"
+    video="https://www.youtube.com/watch?v=jUTQyUjeynE"
 	%}
 </table>
