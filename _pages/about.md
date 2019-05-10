@@ -12,8 +12,15 @@ Second year PhD student at the University of Warwick.
 
 Publications
 ======
-Forecasting Pedestrian Trajectory with Machine-Annotated Training Data  
-O. Styles, A. Ross, V. Sanchez  
-2019 IEEE Intelligent Vehicles Symposium (IV).
-<img style="float: right;" src="/images/iv2019.jpg">
-![IV 2019](/images/iv2019.png "IV 2019")
+<table width="100%">
+	<!-- publication 1 -->
+	{%  include publication.html
+		url="http://google.com"
+		img_path="iv2019.png"
+		title="test"
+		author_list="test"
+		published_in="test"
+		code_url="test"
+	%}
+
+</table>
