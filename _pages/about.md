@@ -19,7 +19,7 @@ Research
 ======
 <table style="border: none">  
 	{%  include publications.html
-		img_path="mof.png"  
+		img_path="mof.jpg"  
 		title="Multiple Object Forecasting"
 		published_in="Coming soon"
 	%}
