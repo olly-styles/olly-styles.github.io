@@ -32,6 +32,7 @@ Research
 		published_in="IV 2019"
     code_url="https://github.com/olly-styles/Dynamic-Trajectory-Predictor"
     video="https://www.youtube.com/watch?v=jUTQyUjeynE"
+    poster="https://olly-styles.github.io/files/iv2019_poster.pdf"
 	%}
 </table><br>
 
