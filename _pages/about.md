@@ -19,12 +19,6 @@ Research
 ======
 <table style="border: none">  
 	{%  include publications.html
-		img_path="mof.jpg"  
-		title="Multiple Object Forecasting"
-		published_in="Coming soon"
-	%}
-
-	{%  include publications.html
 		url="https://arxiv.org/pdf/1905.03681.pdf"
 		img_path="iv2019.png"
 		title="Forecasting Pedestrian Trajectory with Machine-annotated Training Data"
