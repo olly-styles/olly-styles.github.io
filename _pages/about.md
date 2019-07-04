@@ -36,14 +36,14 @@ Teaching
 ======
 <table style="border: none">  
 	{%  include modules.html
-		url="https://warwick.ac.uk/fac/sci/dcs/teaching/material/cs355/"
+		url="https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs355/"
 		img_path="cs355.png"
 		title="CS355: Digital Forensics"
 		author_list="Lab tutor"
     published_in="2017-2018, 2018-2019"
 	%}
 	{%  include modules.html
-		url="https://warwick.ac.uk/fac/sci/dcs/teaching/material/cs118/"
+		url="https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs118/"
 		img_path="cs118.png"
 		title="CS118: Programming for Computer Scientists"
 		author_list="Lab tutor"
