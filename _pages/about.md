@@ -59,7 +59,7 @@ Experience
 <table style="border: none">  
 	{%  include experience.html
 		url="https://rose.ntu.edu.sg/Pages/Home.aspx"
-		img_path="ntu_logo.jpg"
+		img_path="ntu_logo2.jpg"
 		title="Visiting Researcher"
 		author_list="Supervisor: Prof. Alex Kot"
     published_in="Aug 2019 - Dec 2019"
