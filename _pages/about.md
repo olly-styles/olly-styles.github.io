@@ -19,7 +19,7 @@ Research
 ======
 <table style="border: none">  
 	{%  include publications.html
-		img_path="wacv2020.jpg"
+		img_path="wacv_2020.jpg"
 		title="Multiple Object Forecasting: Predicting Future Object Locations in Diverse Environments"
 		author_list="<u>Olly Styles</u>, Tanaya Guha, Victor Sanchez"
 		published_in="WACV 2020 (to appear) <br> Links coming soon"
