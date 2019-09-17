@@ -19,6 +19,17 @@ Research
 ======
 <table style="border: none">  
 	{%  include publications.html
+		url=""
+		img_path="wacv2020.jpg"
+		title="Multiple Object Forecasting: Predicting Future Object Locations in Diverse Environments"
+		author_list="<u>Olly Styles</u>, Tanaya Guha, Victor Sanchez"
+		published_in="WACV 2020 (to appear) <br> Coming soon"
+    code_url=""
+	%}
+</table><br>
+
+<table style="border: none">  
+	{%  include publications.html
 		url="https://arxiv.org/pdf/1905.03681.pdf"
 		img_path="iv2019.png"
 		title="Forecasting Pedestrian Trajectory with Machine-annotated Training Data"
