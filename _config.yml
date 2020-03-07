@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Olly Styles"
   avatar           : "olly.png"
-  bio              : "Research interests:  Deep learning, autonomous driving, computer vision"
+  bio              : "Research interests: Computer Vision, Vision-based Forecasting, Trajectory Prediction"
   location         : "Coventry, England"
   employer         :
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=nwYhVo0AAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
