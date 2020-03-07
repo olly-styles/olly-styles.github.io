@@ -90,6 +90,7 @@ Experience
     published_in="October 2019 - March 2020"
 	%}
 </table><br>
+
 ---
 
 Education
