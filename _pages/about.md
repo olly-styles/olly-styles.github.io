@@ -79,12 +79,14 @@ Experience
 <table style="border: none">  
 	{%  include experience.html
 		url="https://www.atlasai.co.uk"
+        author_list="Atlas AI"
 		img_path="atlas_small.jpg"
 		title="Computer Vision Consultant"
     published_in="October 2019 - March 2020"
 	%}
 	{%  include experience.html
 		url="https://www.gov.uk/government/organisations/defence-and-security-accelerator"
+        author_list="Defence and Security Accelerator"
 		img_path="dasa.jpg"
 		title="Research assistant"
     published_in="October 2019 - March 2020"
