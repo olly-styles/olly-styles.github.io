@@ -78,28 +78,18 @@ Experience
 ======
 <table style="border: none">  
 	{%  include experience.html
-		url="https://rose.ntu.edu.sg/Pages/Home.aspx"
-		img_path="ntu_logo2.jpg"
-		title="Visiting Researcher"
-		author_list="Supervisor: Prof. Alex Kot"
-    published_in="Aug 2019 - Dec 2019"
+		url="https://www.atlasai.co.uk"
+		img_path="atlas.jpg"
+		title="Computer Vision Consultant"
+    published_in="October 2019 - March 2020"
 	%}
 	{%  include experience.html
-		url="https://iprobe.cse.msu.edu/index.php"
-		img_path="msu.png"
-		title="Visiting Researcher"
-		author_list="Supervisor: Dr. Arun Ross"
-    published_in="Sep 2018 - Dec 2018"
-	%}
-	{%  include experience.html
-		url="https://sydney.edu.au/"
-		img_path="usyd.png"
-		title="Visiting Researcher"
-		author_list="Supervisor: Dr. Dong Xu"
-    published_in="Mar 2018 - Jul 2018"
+		url="https://www.gov.uk/government/organisations/defence-and-security-accelerator"
+		img_path="dasa.jpg"
+		title="Research assistant"
+    published_in="October 2019 - March 2020"
 	%}
 </table><br>
-
 ---
 
 Education
@@ -111,6 +101,27 @@ Education
 		title="PhD in Computer Vision"
 		author_list="Supervisor: Dr. Victor Sanchez"
     published_in="Sep 2017 - Present"
+	%}
+	{%  include education.html
+		url="https://rose.ntu.edu.sg/Pages/Home.aspx"
+		img_path="ntu_logo2.jpg"
+		title="Visiting Researcher"
+		author_list="Supervisor: Prof. Alex Kot"
+    published_in="Aug 2019 - Dec 2019"
+	%}
+	{%  include education.html
+		url="https://iprobe.cse.msu.edu/index.php"
+		img_path="msu.png"
+		title="Visiting Researcher"
+		author_list="Supervisor: Dr. Arun Ross"
+    published_in="Sep 2018 - Dec 2018"
+	%}
+	{%  include education.html
+		url="https://sydney.edu.au/"
+		img_path="usyd.png"
+		title="Visiting Researcher"
+		author_list="Supervisor: Dr. Dong Xu"
+    published_in="Mar 2018 - Jul 2018"
 	%}
 	{%  include education.html
 		url="https://warwick.ac.uk/fac/sci/dcs/"
