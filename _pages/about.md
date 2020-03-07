@@ -79,7 +79,7 @@ Experience
 <table style="border: none">  
 	{%  include experience.html
 		url="https://www.atlasai.co.uk"
-		img_path="atlas.jpg"
+		img_path="atlas_small.jpg"
 		title="Computer Vision Consultant"
     published_in="October 2019 - March 2020"
 	%}
