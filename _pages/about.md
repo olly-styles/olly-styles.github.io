@@ -23,8 +23,10 @@ Research
 		img_path="wacv_2020.jpg"
 		title="Multiple Object Forecasting: Predicting Future Object Locations in Diverse Environments"
 		author_list="<u>Olly Styles</u>, Tanaya Guha, Victor Sanchez"
-		published_in="WACV 2020 (to appear)"
+		published_in="WACV 2020"
         code_url="https://github.com/olly-styles/Multiple-Object-Forecasting"
+        poster="https://olly-styles.github.io/files.nosync/wacv2020_poster.pdf"
+        video="https://www.youtube.com/watch?v=GPdNKE6fq6U&feature=youtu.be"
 	%}
 </table><br>
 
@@ -37,7 +39,7 @@ Research
 		published_in="IV 2019"
     code_url="https://github.com/olly-styles/Dynamic-Trajectory-Predictor"
     video="https://www.youtube.com/watch?v=jUTQyUjeynE"
-    poster="https://olly-styles.github.io/files/iv2019_poster.pdf"
+    poster="https://olly-styles.github.io/files.nosync/iv2019_poster.pdf"
 	%}
 </table><br>
 
