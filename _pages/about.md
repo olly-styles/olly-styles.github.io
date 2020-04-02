@@ -82,7 +82,7 @@ Experience
         author_list="Atlas AI"
 		img_path="atlas_small.jpg"
 		title="Computer Vision Consultant"
-    published_in="October 2019 - March 2020"
+    published_in="October 2019 - Present"
 	%}
 	{%  include experience.html
 		url="https://www.gov.uk/government/organisations/defence-and-security-accelerator"
