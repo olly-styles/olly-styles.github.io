@@ -19,6 +19,17 @@ Research
 ======
 <table style="border: none">  
 	{%  include publications.html
+        url="https://arxiv.org/pdf/2005.00282.pdf"
+		img_path="mctf.jpg"
+		title="Multi-Camera Trajectory Forecasting: Pedestrian Trajectory Prediction in a Network of Cameras"
+		author_list="<u>Olly Styles</u>, Tanaya Guha, Victor Sanchez, Alex Kot"
+		published_in="CVPR-W 2020"
+        code_url="https://github.com/olly-styles/Multi-Camera-Trajectory-Forecasting"
+	%}
+</table><br>
+
+<table style="border: none">  
+	{%  include publications.html
         url="https://arxiv.org/pdf/1909.11944.pdf"
 		img_path="wacv_2020.jpg"
 		title="Multiple Object Forecasting: Predicting Future Object Locations in Diverse Environments"
@@ -89,7 +100,7 @@ Experience
         author_list="Defence and Security Accelerator"
 		img_path="dasa.jpg"
 		title="Research assistant"
-    published_in="October 2019 - March 2020"
+    published_in="October 2019 - Present"
 	%}
 </table><br>
 
