@@ -113,7 +113,7 @@ Education
 		url="https://warwick.ac.uk/fac/sci/dcs/people/victor_sanchez/siplab/"
 		img_path="warwick.png"
 		title="PhD in Computer Vision"
-		author_list="Supervisor: Dr. Victor Sanchez"
+		author_list="Supervisors: Dr. Victor Sanchez & Dr. Tanaya Guha"
     published_in="Sep 2017 - Present"
 	%}
 	{%  include education.html
