@@ -23,7 +23,7 @@ Research
 		img_path="mctf.jpg"
 		title="Multi-Camera Trajectory Forecasting: Pedestrian Trajectory Prediction in a Network of Cameras"
 		author_list="<u>Olly Styles</u>, Tanaya Guha, Victor Sanchez, Alex Kot"
-		published_in="CVPR-W 2020"
+		published_in="CVPR-W 2020 <b>(Best student paper award) </b>"
         code_url="https://github.com/olly-styles/Multi-Camera-Trajectory-Forecasting"
 	%}
 </table><br>
