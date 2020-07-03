@@ -25,6 +25,7 @@ Research
 		author_list="<u>Olly Styles</u>, Tanaya Guha, Victor Sanchez, Alex Kot"
 		published_in="CVPR-W 2020 <b>(Best student paper award) </b>"
         code_url="https://github.com/olly-styles/Multi-Camera-Trajectory-Forecasting"
+        video="https://www.youtube.com/watch?v=WtuQHU95WMQ"
 	%}
 </table><br>
 
