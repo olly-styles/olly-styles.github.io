@@ -90,6 +90,14 @@ Experience
 ======
 <table style="border: none">  
 	{%  include experience.html
+		url="https://www.geospatialalpha.com/"
+        author_list="Geospatial Alpha"
+		img_path="geospatial_alpha.png"
+		title="Advisor"
+    published_in="July 2020 - Present"
+	%}
+<table style="border: none">  
+	{%  include experience.html
 		url="https://www.atlasai.co.uk"
         author_list="Atlas AI"
 		img_path="atlas_small.jpg"
