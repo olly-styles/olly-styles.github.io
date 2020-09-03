@@ -96,7 +96,6 @@ Experience
 		title="Advisor"
     published_in="July 2020 - Present"
 	%}
-<table style="border: none">  
 	{%  include experience.html
 		url="https://www.atlasai.co.uk"
         author_list="Atlas AI"
