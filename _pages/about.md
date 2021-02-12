@@ -100,7 +100,7 @@ Experience
 		url="https://www.atlasai.co.uk"
         author_list="Atlas AI"
 		img_path="atlas_small.jpg"
-		title="Computer Vision Consultant"
+		title="Lead Data Scientist"
     published_in="October 2019 - Present"
 	%}
 	{%  include experience.html
