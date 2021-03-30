@@ -19,6 +19,16 @@ Research
 ======
 <table style="border: none">  
 	{%  include publications.html
+        url="https://olly-styles.github.io/papers/trajectory_tensors_pami21.pdf"
+		img_path="trajectory_tensors.jpg"
+		title="Multi-Camera Trajectory Forecasting with Trajectory Tensors"
+		author_list="<u>Olly Styles</u>, Tanaya Guha, Victor Sanchez"
+		published_in="(Under review) </b>"
+	%}
+</table><br>
+
+<table style="border: none">  
+	{%  include publications.html
         url="https://arxiv.org/pdf/2005.00282.pdf"
 		img_path="mctf.jpg"
 		title="Multi-Camera Trajectory Forecasting: Pedestrian Trajectory Prediction in a Network of Cameras"
