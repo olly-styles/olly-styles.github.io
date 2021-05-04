@@ -118,7 +118,7 @@ Experience
         author_list="Defence and Security Accelerator"
 		img_path="dasa.jpg"
 		title="Research assistant"
-    published_in="October 2019 - Present"
+    published_in="October 2019 - March 2021"
 	%}
 </table><br>
 
