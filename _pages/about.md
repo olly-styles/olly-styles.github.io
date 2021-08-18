@@ -19,11 +19,13 @@ Research
 ======
 <table style="border: none">  
 	{%  include publications.html
-        url="https://olly-styles.github.io/papers/trajectory_tensors_pami21.pdf"
+        url="https://arxiv.org/pdf/2108.04694.pdf"
 		img_path="trajectory_tensors.jpg"
 		title="Multi-Camera Trajectory Forecasting with Trajectory Tensors"
 		author_list="<u>Olly Styles</u>, Tanaya Guha, Victor Sanchez"
 		published_in="(Under review)"
+        code_url="https://github.com/olly-styles/Trajectory-Tensors"
+        video="https://youtu.be/IjlNEvKQ634"
 	%}
 </table><br>
 
