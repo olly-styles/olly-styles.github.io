@@ -23,7 +23,7 @@ Research
 		img_path="trajectory_tensors.jpg"
 		title="Multi-Camera Trajectory Forecasting with Trajectory Tensors"
 		author_list="<u>Olly Styles</u>, Tanaya Guha, Victor Sanchez"
-		published_in="(Under review)"
+		published_in="t-PAMI (to appear)"
         code_url="https://github.com/olly-styles/Trajectory-Tensors"
         video="https://youtu.be/IjlNEvKQ634"
 	%}
