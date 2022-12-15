@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Olly Styles"
+title: "Olly Styles, PhD"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -135,6 +135,7 @@ Education
 		author_list="Supervisor: Prof. Dit-Yan Yeung"
     published_in="Aug 2015 - Jun 2016"
 	%}
+</table><br>
 
 ---
 
@@ -163,5 +164,4 @@ University Teaching
     published_in="2017-2018, 2018-2019"
 	%}
 
-</table><br>
 </table>
