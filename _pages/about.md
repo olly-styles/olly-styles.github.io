@@ -68,35 +68,6 @@ Research
 
 ---
 
-Teaching
-======
-<table style="border: none">  
-	{%  include modules.html
-		url="https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs342/"
-		img_path="cs342.png"
-		title="CS342: Machine Learning"
-		author_list="Lab tutor"
-    published_in="2019-2020"
-	%}
-	{%  include modules.html
-		url="https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs355/"
-		img_path="cs355.png"
-		title="CS355: Digital Forensics"
-		author_list="Lab tutor"
-    published_in="2017-2018, 2018-2019, 2019-2020"
-	%}
-	{%  include modules.html
-		url="https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs118/"
-		img_path="cs118.png"
-		title="CS118: Programming for Computer Scientists"
-		author_list="Lab tutor"
-    published_in="2017-2018, 2018-2019"
-	%}
-
-</table><br>
-
----
-
 Experience
 ======
 <table style="border: none">  
@@ -126,7 +97,7 @@ Education
 		img_path="warwick.png"
 		title="PhD in Computer Vision"
 		author_list="Supervisors: Dr. Victor Sanchez & Dr. Tanaya Guha"
-    published_in="Sep 2017 - Present"
+    published_in="Sep 2017 - September 2021"
 	%}
 	{%  include education.html
 		url="https://rose.ntu.edu.sg/Pages/Home.aspx"
@@ -164,4 +135,33 @@ Education
 		author_list="Supervisor: Prof. Dit-Yan Yeung"
     published_in="Aug 2015 - Jun 2016"
 	%}
+
+---
+
+University Teaching
+======
+<table style="border: none">  
+	{%  include modules.html
+		url="https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs342/"
+		img_path="cs342.png"
+		title="CS342: Machine Learning"
+		author_list="Lab tutor"
+    published_in="2019-2020"
+	%}
+	{%  include modules.html
+		url="https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs355/"
+		img_path="cs355.png"
+		title="CS355: Digital Forensics"
+		author_list="Lab tutor"
+    published_in="2017-2018, 2018-2019, 2019-2020"
+	%}
+	{%  include modules.html
+		url="https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs118/"
+		img_path="cs118.png"
+		title="CS118: Programming for Computer Scientists"
+		author_list="Lab tutor"
+    published_in="2017-2018, 2018-2019"
+	%}
+
+</table><br>
 </table>
