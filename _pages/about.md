@@ -8,10 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-PhD student <br>
-Department of Computer Science <br>
-University of Warwick <br>
-Email: o.c.styles AT warwick.ac.uk <br>
+Head of Data Science <br>
+Atlas AI <br>
+Email: olly.styles AT atlasai.co.uk <br>
 
 ---
 
@@ -23,7 +22,7 @@ Research
 		img_path="trajectory_tensors.jpg"
 		title="Multi-Camera Trajectory Forecasting with Trajectory Tensors"
 		author_list="<u>Olly Styles</u>, Tanaya Guha, Victor Sanchez"
-		published_in="t-PAMI (to appear)"
+		published_in="t-PAMI"
         code_url="https://github.com/olly-styles/Trajectory-Tensors"
         video="https://youtu.be/IjlNEvKQ634"
 	%}
@@ -102,17 +101,10 @@ Experience
 ======
 <table style="border: none">  
 	{%  include experience.html
-		url="https://www.geospatialalpha.com/"
-        author_list="Geospatial Alpha"
-		img_path="geospatial_alpha.png"
-		title="Advisor"
-    published_in="July 2020 - Present"
-	%}
-	{%  include experience.html
 		url="https://www.atlasai.co.uk"
         author_list="Atlas AI"
 		img_path="atlas_small.jpg"
-		title="Lead Data Scientist"
+		title="Head of Data Science"
     published_in="October 2019 - Present"
 	%}
 	{%  include experience.html
