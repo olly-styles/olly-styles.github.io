@@ -10,10 +10,9 @@ redirect_from:
 
 AI PhD and ex-founder living in London. I've been training machine learning models since 2015. 
 
-I got my masters in Computer Science and PhD in Computer Vision from the University of Warwick. During my PhD, I published 5 papers including a journal paper in IEEE Transactions on Pattern Analysis and Machine Intelligence and a best student paper award at IEEE Computer Vision and Pattern Recognition Workshop 2020. As a visting researcher, I've worked at the Nanyang Technological University, Michigan State University, and the University of Sydney.
+I got my Masters in Computer Science (2013-2017) and PhD in Computer Vision (2017-2021) from the University of Warwick. During my PhD, I published 5 papers including a journal paper in IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI) and a best student paper award at IEEE Computer Vision and Pattern Recognition Workshop (CVPR-W). As a visting researcher, I've worked at the Nanyang Technological University, Michigan State University, and the University of Sydney.
 
-Alongside my PhD, I was a founding engineer of Atlas AI (2019-2023), a startup that uses computer vision to automate personal training. I became CTO in January 2023, before shutting down the company in December 2023. 
-
+Alongside my PhD, I was a part-time founding engineer of Atlas AI (2019-2021), full-time founding engineer (2022) and finally CTO (2023). Atlas AI used computer vision to automate personal training. We shut down Atlas AI in December 2023 after failing to find product-market fit. We've written a series of blog posts about our four-year startup journey [here](https://artanis.substack.com/p/atlas-ai-part-1-everyones-got-a-gantt).
 
 ---
 
@@ -63,7 +62,7 @@ Publications
 		img_path="trajectory_tensors.jpg"
 		title="Multi-Camera Trajectory Forecasting with Trajectory Tensors"
 		author_list="<u>Olly Styles</u>, Tanaya Guha, Victor Sanchez"
-		published_in="t-PAMI 2021"
+		published_in="PAMI 2021"
         code_url="https://github.com/olly-styles/Trajectory-Tensors"
         video="https://youtu.be/IjlNEvKQ634"
 	%}
