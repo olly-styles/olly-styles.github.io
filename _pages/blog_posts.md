@@ -5,12 +5,10 @@ excerpt: "Blog"
 author_profile: true
 ---
 
-Startup blog posts
-======
 <table style="border: none">  
 	{%  include experience.html
 		url="https://artanis.substack.com/p/atlas-ai-part-1-everyones-got-a-gantt"
-		img_path="story_of_atlas.webp"
+		img_path="story_of_atlas.png"
 		title="The Story of Atlas AI"
     published_in="Everyone’s got a Gantt Chart ‘til they get punched in the face."
 	%}
