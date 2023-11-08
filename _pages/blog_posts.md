@@ -1,6 +1,6 @@
 ---
 permalink: /blog/
-title: "Blog"
+title: "Startup Blog"
 excerpt: "Startup Blog"
 author_profile: true
 ---
