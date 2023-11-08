@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Olly Styles, PhD"
+title                    : "Olly Styles"
 title_separator          : "-"
-name                     : "Olly Styles, PhD"
-description              : &description "Olly Styles, PhD"
+name                     : "Olly Styles"
+description              : &description "Olly Styles"
 url                      : https://olly-styles.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "olly-styles/olly-styles.github.io"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Olly Styles, PhD"
+  name             : "Olly Styles"
   avatar           : "olly.png"
   bio              : ""
   location         : "London, England"
