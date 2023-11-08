@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Olly Styles, PhD"
   avatar           : "olly.png"
-  bio              : ""
+  bio              : "This is my bio"
   location         : "London, England"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=nwYhVo0AAAAJ&hl=en"
@@ -100,7 +100,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/olly-styles-090437132/"
   orcid            :
   pinterest        :
   soundcloud       :
