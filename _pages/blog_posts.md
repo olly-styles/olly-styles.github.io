@@ -9,25 +9,29 @@ author_profile: true
 	{%  include experience.html
 		url="https://artanis.substack.com/p/atlas-ai-part-1-everyones-got-a-gantt"
 		img_path="story_of_atlas.png"
-		author_list="The Story of Atlas AI"
+		title="The Story of Atlas AI"
+		author_list="October 2023"
     published_in="Everyone’s got a Gantt Chart ‘til they get punched in the face."
 	%}
 	{%  include experience.html
 		url="https://artanis.substack.com/p/risk-based-planning"
 		img_path="risk-based-planning.webp"
-		author_list="Risk-Based Planning"
+		title="Risk-Based Planning"
+		author_list="October 2023"
     published_in="Why your startup should avoid Intuitive Planning."
 	%}
 	{%  include experience.html
 		url="https://artanis.substack.com/p/the-four-dials-framework-for-pivoting"
 		img_path="four-dials.webp"
-		author_list="The Four Dials Framework for Pivoting a startup"
+		title="The Four Dials Framework for Pivoting a startup"
+		author_list="October 2023"
     published_in="Why startups often think about pivots backwards."
 	%}
 	{%  include experience.html
 		url="https://artanis.substack.com/p/your-startup-shouldnt-be-a-rocketship"
 		img_path="rocketship.webp"
-		author_list="Your Startup Shouldn't Be a Rocketship"
+		title="Your Startup Shouldn't Be a Rocketship"
+		author_list="November 2023"
     published_in="It should be a snail."
 	%}
 
