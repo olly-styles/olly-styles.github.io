@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-AI PhD and ex-startup founder living in London. I've been training machine learning models since 2015. 
+AI PhD and ex-founder living in London. I've been training machine learning models since 2015. 
 
 I got my Masters in Computer Science (2013-2017) and PhD in Computer Vision (2017-2021) from the University of Warwick. During my PhD, I published 5 papers including a journal paper in IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI) and a best student paper award at IEEE Computer Vision and Pattern Recognition Workshop (CVPR-W). As a visting researcher, I've worked at the Nanyang Technological University, Michigan State University, and the University of Sydney.
 
