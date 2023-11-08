@@ -27,7 +27,7 @@ Experience
 		url="https://www.atlasai.co.uk"
         author_list="Atlas AI"
 		img_path="atlas_small.jpg"
-		title="Founding Data Scientist"
+		title="Founding Computer Vision Engineer"
     published_in="January 2019 - December 2022"
 	%}
 	{%  include experience.html
