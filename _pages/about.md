@@ -42,15 +42,25 @@ Experience
 
 ---
 
-Research
+Publications
 ======
+<table style="border: none">  
+	{%  include publications.html
+        url="https://openaccess.thecvf.com/content/WACV2022W/RWS/papers/Kesa_Multiple_Object_Tracking_and_Forecasting_Jointly_Predicting_Current_and_Future_WACVW_2022_paper.pdf"
+		img_path="jla.png"
+		title="Multi-Camera Trajectory Forecasting with Trajectory Tensors"
+		author_list="Oluwafunmilola Kesa, <u>Olly Styles</u>, Victor Sanchez"
+		published_in="WACV-W 2022"
+        code_url="https://github.com/FunmiKesa/JLA"
+	%}
+</table><br>
 <table style="border: none">  
 	{%  include publications.html
         url="https://arxiv.org/pdf/2108.04694.pdf"
 		img_path="trajectory_tensors.jpg"
 		title="Multi-Camera Trajectory Forecasting with Trajectory Tensors"
 		author_list="<u>Olly Styles</u>, Tanaya Guha, Victor Sanchez"
-		published_in="t-PAMI"
+		published_in="t-PAMI 2021"
         code_url="https://github.com/olly-styles/Trajectory-Tensors"
         video="https://youtu.be/IjlNEvKQ634"
 	%}
@@ -58,11 +68,11 @@ Research
 
 <table style="border: none">  
 	{%  include publications.html
-        url="https://arxiv.org/pdf/2005.00282.pdf"
+        url="https://openaccess.thecvf.com/content_CVPRW_2020/papers/w66/Styles_Multi-Camera_Trajectory_Forecasting_Pedestrian_Trajectory_Prediction_in_a_Network_of_CVPRW_2020_paper.pdf"
 		img_path="mctf.jpg"
 		title="Multi-Camera Trajectory Forecasting: Pedestrian Trajectory Prediction in a Network of Cameras"
 		author_list="<u>Olly Styles</u>, Tanaya Guha, Victor Sanchez, Alex Kot"
-		published_in="CVPR-W 2020 <b>(Best student paper award) </b>"
+		published_in="CVPR-W 2020 (Best student paper award)"
         code_url="https://github.com/olly-styles/Multi-Camera-Trajectory-Forecasting"
         video="https://www.youtube.com/watch?v=WtuQHU95WMQ"
 	%}
@@ -70,7 +80,7 @@ Research
 
 <table style="border: none">  
 	{%  include publications.html
-        url="https://arxiv.org/pdf/1909.11944.pdf"
+        url="https://openaccess.thecvf.com/content_WACV_2020/papers/Styles_Multiple_Object_Forecasting_Predicting_Future_Object_Locations_in_Diverse_Environments_WACV_2020_paper.pdf"
 		img_path="wacv_2020.jpg"
 		title="Multiple Object Forecasting: Predicting Future Object Locations in Diverse Environments"
 		author_list="<u>Olly Styles</u>, Tanaya Guha, Victor Sanchez"
