@@ -10,6 +10,7 @@ redirect_from:
 
 Email: olly.styles AT gmail.co.uk <br>
 
+AI PhD and ex-founder living in London. 
 
 ---
 
