@@ -8,9 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Email: olly.styles AT gmail.co.uk <br>
+AI PhD and ex-founder living in London. I've been training machine learning models since 2015. 
 
-AI PhD and ex-founder living in London. 
+I got my masters in Computer Science and PhD in Computer Vision from the University of Warwick. During my PhD, I published 5 papers including a journal paper in IEEE Transactions on Pattern Analysis and Machine Intelligence and a best student paper award at IEEE Computer Vision and Pattern Recognition Workshop 2020. As a visting researcher, I've worked at the Nanyang Technological University, Michigan State University, and the University of Sydney.
+
+Alongside my PhD, I was a founding engineer of Atlas AI (2019-2023), a startup that uses computer vision to automate personal training. I became CTO in January 2023, before shutting down the company in December 2023. 
+
 
 ---
 
