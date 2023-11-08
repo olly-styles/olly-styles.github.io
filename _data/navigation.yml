@@ -3,4 +3,4 @@ main:
   - title: "Home"
     url: /
   - title: "Blog Posts"
-    url: /blog_posts/
+    url: /blog/

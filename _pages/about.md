@@ -38,6 +38,7 @@ Experience
     published_in="October 2019 - March 2021"
 	%}
 </table><br>
+
 ---
 
 Research
