@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Olly Styles, PhD"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -8,10 +8,36 @@ redirect_from:
   - /about.html
 ---
 
-Head of Data Science <br>
-Atlas AI <br>
-Email: olly.styles AT atlasai.co.uk <br>
+Email: olly.styles AT gmail.co.uk <br>
 
+
+---
+
+Experience
+======
+<table style="border: none">  
+	{%  include experience.html
+		url="https://www.atlasai.co.uk"
+        author_list="Atlas AI"
+		img_path="atlas_small.jpg"
+		title="Cofounder, CTO"
+    published_in="January 2023 - December 2023"
+	%}
+	{%  include experience.html
+		url="https://www.atlasai.co.uk"
+        author_list="Atlas AI"
+		img_path="atlas_small.jpg"
+		title="Founding Data Scientist"
+    published_in="January 2019 - December 2022"
+	%}
+	{%  include experience.html
+		url="https://www.gov.uk/government/organisations/defence-and-security-accelerator"
+        author_list="Defence and Security Accelerator"
+		img_path="dasa.jpg"
+		title="Research Assistant"
+    published_in="October 2019 - March 2021"
+	%}
+</table><br>
 ---
 
 Research
@@ -63,27 +89,6 @@ Research
     code_url="https://github.com/olly-styles/Dynamic-Trajectory-Predictor"
     video="https://www.youtube.com/watch?v=jUTQyUjeynE"
     poster="https://olly-styles.github.io/files.nosync/iv2019_poster.pdf"
-	%}
-</table><br>
-
----
-
-Experience
-======
-<table style="border: none">  
-	{%  include experience.html
-		url="https://www.atlasai.co.uk"
-        author_list="Atlas AI"
-		img_path="atlas_small.jpg"
-		title="Head of Data Science"
-    published_in="October 2019 - Present"
-	%}
-	{%  include experience.html
-		url="https://www.gov.uk/government/organisations/defence-and-security-accelerator"
-        author_list="Defence and Security Accelerator"
-		img_path="dasa.jpg"
-		title="Research assistant"
-    published_in="October 2019 - March 2021"
 	%}
 </table><br>
 
