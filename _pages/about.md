@@ -12,7 +12,7 @@ AI PhD and ex-founder living in London. I've been training machine learning mode
 
 I got my Masters in Computer Science (2013-2017) and PhD in Computer Vision (2017-2021) from the University of Warwick. During my PhD, I published 5 papers including a journal paper in IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI) and a best student paper award at IEEE Computer Vision and Pattern Recognition Workshop (CVPR-W). As a visting researcher, I've worked at the Nanyang Technological University, Michigan State University, and the University of Sydney.
 
-I was a Part-Time Founding Engineer (2019-2021), Full-Time Founding Engineer (2022) and finally CTO (2023) of Atlas AI. Atlas AI was a startup using computer vision to automate personal training. We shut down Atlas AI in December 2023 after failing to find product-market fit. We've written a series of blog posts about our four-year startup journey [here](https://artanis.substack.com/p/atlas-ai-part-1-everyones-got-a-gantt).
+I was a Founding Computer Vision Engineer (2021-2022) and later CTO (2023) of Atlas AI. Atlas AI was a startup using computer vision to automate personal training. We shut down Atlas AI in December 2023 after failing to find product-market fit. We've written a series of blog posts about our four-year startup journey [here](https://artanis.substack.com/p/atlas-ai-part-1-everyones-got-a-gantt).
 
 ---
 
@@ -31,7 +31,7 @@ Experience
         author_list="Atlas AI"
 		img_path="atlas_small.jpg"
 		title="Founding Computer Vision Engineer"
-    published_in="January 2019 - December 2022"
+    published_in="September 2021 - December 2022"
 	%}
 	{%  include experience.html
 		url="https://www.gov.uk/government/organisations/defence-and-security-accelerator"
