@@ -18,10 +18,10 @@ export default function Icon() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        letterSpacing: "-0.04em",
       }}
     >
-      o
+      <span>o</span>
+      <span style={{ marginLeft: -28 }}>s</span>
     </div>,
     { ...size },
   );
