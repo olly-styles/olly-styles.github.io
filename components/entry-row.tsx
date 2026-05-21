@@ -25,7 +25,7 @@ export function EntryRow({ meta, title, role, description, href, iconKey }: Prop
         </div>
         {role || description ? (
           <div className="mt-0.5 text-sm text-muted">
-            {role ? <span className="font-semibold text-ink">{role}.</span> : null}
+            {role ? <span className="font-semibold">{role}.</span> : null}
             {role && description ? " " : null}
             {description}
           </div>
