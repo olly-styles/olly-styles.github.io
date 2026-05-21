@@ -33,6 +33,13 @@ export const work: WorkEntry[] = [
     href: "https://artanis.ai",
   },
   {
+    title: "Multiverse",
+    description: "Senior ML Engineer.",
+    start: "2023",
+    end: "2024",
+    href: "https://www.multiverse.io",
+  },
+  {
     title: "Atlas AI",
     description: "Cofounder & CTO. Computer vision startup for personal training. Wound down Dec 2023.",
     start: "2021",
@@ -51,6 +58,7 @@ export const work: WorkEntry[] = [
     description: "PhD in Computer Vision. Supervisors: Victor Sanchez & Tanaya Guha.",
     start: "2017",
     end: "2021",
+    href: "https://wrap.warwick.ac.uk/171477/1/WRAP_Theses_Styles_2021.pdf",
   },
 ];
 
@@ -91,6 +99,14 @@ export type Publication = {
 };
 
 export const publications: Publication[] = [
+  {
+    title: "WorkBench: a Benchmark Dataset for Agents in a Realistic Workplace Setting",
+    authors: "Styles, Miller, Cerda-Mardini, Guha, Sanchez, Vidgen",
+    venue: "arXiv",
+    year: "'24",
+    href: "https://arxiv.org/abs/2405.00823",
+    code: "https://github.com/olly-styles/WorkBench",
+  },
   {
     title: "Multi-Camera Trajectory Forecasting with Trajectory Tensors",
     authors: "Kesa, Styles, Sanchez",
