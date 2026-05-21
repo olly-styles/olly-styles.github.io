@@ -1,10 +1,8 @@
 name: Deploy
 
 on:
-  # Re-enable the push trigger after renaming this repo to olly-styles.github.io
-  # and making it public (Pages requires public for free plans).
-  # push:
-  #   branches: [main]
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
