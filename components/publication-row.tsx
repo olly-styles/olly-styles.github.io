@@ -28,7 +28,15 @@ export function PublicationRow({ iconKey, title, authors, note, venue, year, hre
             {venue} {year}
           </div>
         </div>
-        <div className="mt-1 text-sm text-muted">{note ? `${note} — ${authors}` : authors}</div>
+        <div className="mt-1 text-sm text-muted">
+          {authors}
+          {note ? (
+            <>
+              <span className="mx-1.5 text-accent">·</span>
+              {note}
+            </>
+          ) : null}
+        </div>
       </div>
     </div>
   );
