@@ -10,15 +10,14 @@ export default function Icon() {
       style={{
         width: "100%",
         height: "100%",
-        background: "#fafafa",
+        background: "transparent",
         color: "#ff5c1c",
-        fontSize: 44,
+        fontSize: 64,
         fontWeight: 600,
         fontFamily: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Courier New', monospace",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        borderRadius: 10,
         letterSpacing: "-0.04em",
       }}
     >
