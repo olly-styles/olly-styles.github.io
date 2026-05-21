@@ -1,7 +1,8 @@
 import { EntryRow } from "@/components/entry-row";
+import { PublicationRow } from "@/components/publication-row";
 import { SectionHeading } from "@/components/section-heading";
 import { SocialIcons } from "@/components/social-icons";
-import { beliefs, posts, profile, publications, work } from "@/lib/content";
+import { beliefs, education, posts, profile, publications, work } from "@/lib/content";
 
 export default function Home() {
   return (
@@ -16,16 +17,12 @@ export default function Home() {
         ))}
       </p>
       <p className="my-8 text-[15px] leading-[1.65]">
-        AI PhD and former startup founder. I trained my first neural net in 2015 and never really stopped. Published 5
-        computer vision papers during my PhD at{" "}
-        <a href="https://warwick.ac.uk/" className="ink-link">
-          Warwick
-        </a>
-        , including a journal in PAMI and a best student paper at CVPR-W. Cofounded{" "}
+        AI PhD and former startup founder. Published 5 computer vision papers during my PhD at Warwick, including a
+        journal in PAMI and a best student paper at CVPR-W. Cofounded{" "}
         <a href={profile.links.atlas} className="ink-link">
           Atlas AI
         </a>
-        , a computer vision startup that ran four years before we wound it down. Now building at{" "}
+        , a computer vision startup that ran four years. Now building at{" "}
         <a href={profile.links.artanis} className="ink-link">
           Artanis
         </a>
@@ -37,6 +34,7 @@ export default function Home() {
       {work.map((w) => (
         <EntryRow
           key={w.title}
+          iconKey={w.iconKey}
           meta={`${w.start} → ${w.end}`}
           title={w.title}
           description={w.description}
@@ -44,13 +42,28 @@ export default function Home() {
         />
       ))}
 
+      <SectionHeading>education</SectionHeading>
+      {education.map((e) => (
+        <EntryRow
+          key={e.degree + e.institution}
+          iconKey={e.iconKey}
+          meta={`${e.start} → ${e.end}`}
+          title={e.degree}
+          description={e.institution}
+          href={e.href}
+        />
+      ))}
+
       <SectionHeading>publications</SectionHeading>
       {publications.map((p) => (
-        <EntryRow
+        <PublicationRow
           key={`${p.title}-${p.venue}-${p.year}`}
-          meta={`${p.venue} ${p.year}`}
+          iconKey={p.iconKey}
           title={p.title}
-          description={p.note ? `${p.note} — ${p.authors}` : p.authors}
+          authors={p.authors}
+          note={p.note}
+          venue={p.venue}
+          year={p.year}
           href={p.href}
         />
       ))}
@@ -70,7 +83,7 @@ export default function Home() {
 
       <SectionHeading>writing</SectionHeading>
       {posts.map((p) => (
-        <EntryRow key={p.href} meta={p.date} title={p.title} href={p.href} />
+        <EntryRow key={p.href} iconKey={p.iconKey} meta={p.date} title={p.title} href={p.href} />
       ))}
     </main>
   );

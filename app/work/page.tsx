@@ -1,4 +1,5 @@
 import { EntryRow } from "@/components/entry-row";
+import { PublicationRow } from "@/components/publication-row";
 import { SectionHeading } from "@/components/section-heading";
 import { education, publications, visiting, work } from "@/lib/content";
 
@@ -41,11 +42,14 @@ export default function WorkPage() {
 
       <SectionHeading>publications</SectionHeading>
       {publications.map((p) => (
-        <EntryRow
+        <PublicationRow
           key={`${p.title}-${p.venue}-${p.year}`}
-          meta={`${p.venue} ${p.year}`}
+          iconKey={p.iconKey}
           title={p.title}
-          description={p.note ? `${p.note} — ${p.authors}` : p.authors}
+          authors={p.authors}
+          note={p.note}
+          venue={p.venue}
+          year={p.year}
           href={p.href}
         />
       ))}

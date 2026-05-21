@@ -1,6 +1,6 @@
 export const profile = {
   name: "Olly Styles",
-  tagline: ["ml-engineer", "researcher", "ex-founder"],
+  tagline: ["ml-engineer", "researcher", "founder"],
   location: "London",
   links: {
     atlas: "https://artanis.substack.com/p/atlas-ai-part-1-everyones-got-a-gantt",
@@ -22,6 +22,7 @@ export type WorkEntry = {
   start: string;
   end: string;
   href?: string;
+  iconKey?: string;
 };
 
 export const work: WorkEntry[] = [
@@ -31,6 +32,7 @@ export const work: WorkEntry[] = [
     start: "2024",
     end: "now",
     href: "https://artanis.ai",
+    iconKey: "artanis",
   },
   {
     title: "Multiverse",
@@ -38,27 +40,15 @@ export const work: WorkEntry[] = [
     start: "2023",
     end: "2024",
     href: "https://www.multiverse.io",
+    iconKey: "multiverse",
   },
   {
     title: "Atlas AI",
-    description: "Cofounder & CTO. Computer vision startup for personal training. Wound down Dec 2023.",
-    start: "2021",
+    description: "Cofounder & CTO. Computer vision startup for personal training.",
+    start: "2019",
     end: "2023",
     href: "https://artanis.substack.com/p/atlas-ai-part-1-everyones-got-a-gantt",
-  },
-  {
-    title: "Defence and Security Accelerator",
-    description: "Research Assistant during PhD. Applied computer vision research.",
-    start: "2019",
-    end: "2021",
-    href: "https://www.gov.uk/government/organisations/defence-and-security-accelerator",
-  },
-  {
-    title: "University of Warwick",
-    description: "PhD in Computer Vision. Supervisors: Victor Sanchez & Tanaya Guha.",
-    start: "2017",
-    end: "2021",
-    href: "https://wrap.warwick.ac.uk/171477/1/WRAP_Theses_Styles_2021.pdf",
+    iconKey: "atlas",
   },
 ];
 
@@ -67,12 +57,26 @@ export type EducationEntry = {
   institution: string;
   start: string;
   end: string;
+  href?: string;
+  iconKey?: string;
 };
 
 export const education: EducationEntry[] = [
-  { degree: "PhD, Computer Vision", institution: "University of Warwick", start: "2017", end: "2021" },
-  { degree: "MSci Computer Science (1st)", institution: "University of Warwick", start: "2013", end: "2017" },
-  { degree: "Intercalated year", institution: "HKUST, Hong Kong", start: "2015", end: "2016" },
+  {
+    degree: "PhD, Computer Vision",
+    institution: "University of Warwick",
+    start: "2017",
+    end: "2021",
+    href: "https://wrap.warwick.ac.uk/171477/1/WRAP_Theses_Styles_2021.pdf",
+    iconKey: "warwick",
+  },
+  {
+    degree: "MEng Computer Science (1st)",
+    institution: "University of Warwick",
+    start: "2013",
+    end: "2017",
+    iconKey: "warwick",
+  },
 ];
 
 export type VisitingStint = {
@@ -96,24 +100,28 @@ export type Publication = {
   href?: string;
   code?: string;
   note?: string;
+  image?: string;
+  iconKey?: string;
 };
 
 export const publications: Publication[] = [
   {
-    title: "WorkBench: a Benchmark Dataset for Agents in a Realistic Workplace Setting",
+    title: "WorkBench: A Benchmark Dataset for Agents in a Realistic Workplace Setting",
     authors: "Styles, Miller, Cerda-Mardini, Guha, Sanchez, Vidgen",
-    venue: "arXiv",
+    venue: "COLM",
     year: "'24",
     href: "https://arxiv.org/abs/2405.00823",
     code: "https://github.com/olly-styles/WorkBench",
+    iconKey: "workbench",
   },
   {
-    title: "Multi-Camera Trajectory Forecasting with Trajectory Tensors",
+    title: "Multiple Object Tracking and Forecasting: Jointly Predicting Current and Future Object Locations",
     authors: "Kesa, Styles, Sanchez",
     venue: "WACV-W",
     year: "'22",
     href: "https://openaccess.thecvf.com/content/WACV2022W/RWS/papers/Kesa_Multiple_Object_Tracking_and_Forecasting_Jointly_Predicting_Current_and_Future_WACVW_2022_paper.pdf",
     code: "https://github.com/FunmiKesa/JLA",
+    iconKey: "mot",
   },
   {
     title: "Multi-Camera Trajectory Forecasting with Trajectory Tensors",
@@ -122,6 +130,7 @@ export const publications: Publication[] = [
     year: "'21",
     href: "https://arxiv.org/pdf/2108.04694.pdf",
     code: "https://github.com/olly-styles/Trajectory-Tensors",
+    iconKey: "tensor",
   },
   {
     title: "Multi-Camera Trajectory Forecasting: Pedestrian Trajectory Prediction in a Network of Cameras",
@@ -131,6 +140,7 @@ export const publications: Publication[] = [
     note: "Best student paper award",
     href: "https://openaccess.thecvf.com/content_CVPRW_2020/papers/w66/Styles_Multi-Camera_Trajectory_Forecasting_Pedestrian_Trajectory_Prediction_in_a_Network_of_CVPRW_2020_paper.pdf",
     code: "https://github.com/olly-styles/Multi-Camera-Trajectory-Forecasting",
+    iconKey: "mctf",
   },
   {
     title: "Multiple Object Forecasting: Predicting Future Object Locations in Diverse Environments",
@@ -139,6 +149,7 @@ export const publications: Publication[] = [
     year: "'20",
     href: "https://openaccess.thecvf.com/content_WACV_2020/papers/Styles_Multiple_Object_Forecasting_Predicting_Future_Object_Locations_in_Diverse_Environments_WACV_2020_paper.pdf",
     code: "https://github.com/olly-styles/Multiple-Object-Forecasting",
+    iconKey: "mof",
   },
   {
     title: "Forecasting Pedestrian Trajectory with Machine-annotated Training Data",
@@ -147,49 +158,55 @@ export const publications: Publication[] = [
     year: "'19",
     href: "https://arxiv.org/pdf/1905.03681.pdf",
     code: "https://github.com/olly-styles/Dynamic-Trajectory-Predictor",
+    iconKey: "iv",
   },
 ];
 
-// Placeholders — replace with your own.
 export const beliefs: string[] = [
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-  "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-  "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
+  "Simplicity is worth the effort.",
+  "Trying hard makes it fun.",
+  "Pain is not a unit of effort.",
+  "Honesty is faster.",
+  "Striving makes it worthwhile.",
 ];
 
 export type Post = {
   title: string;
   date: string;
   href: string;
+  iconKey?: string;
 };
 
 // Posts on the Artanis Substack — co-authored company blog, mixed authorship.
 export const posts: Post[] = [
-  {
-    title: "Evals Without Engineering",
-    date: "Apr 2026",
-    href: "https://artanis.substack.com/p/evals-without-engineering",
-  },
-  {
-    title: "Your AI is Only as Good as Your Policy",
-    date: "Apr 2026",
-    href: "https://artanis.substack.com/p/your-ai-is-only-as-good-as-your-policy",
-  },
   {
     title: "Alignment Will Be All That Matters",
     date: "Mar 2026",
     href: "https://artanis.substack.com/p/alignment-will-be-all-that-matters",
   },
   {
-    title: "Stop Evaluating Unstructured Text",
-    date: "Oct 2025",
-    href: "https://artanis.substack.com/p/stop-evaluating-unstructured-text",
+    title: "Why Bikeshedding Kills So Many AI Projects",
+    date: "Jul 2025",
+    href: "https://artanis.substack.com/p/why-bikeshedding-kills-so-many-ai",
   },
   {
-    title: "Atlas AI: Everyone's Got a Gantt",
-    date: "Dec 2023",
+    title: "Don't Write Prompts. Write Policies.",
+    date: "Mar 2025",
+    href: "https://artanis.substack.com/p/dont-write-prompts-write-policies",
+  },
+  {
+    title: "Policy: The Missing Core of the AI Stack",
+    date: "Jan 2025",
+    href: "https://artanis.substack.com/p/policy-the-missing-core-of-the-ai",
+  },
+  {
+    title: "Your Startup Shouldn't Be a Rocketship",
+    date: "Nov 2023",
+    href: "https://artanis.substack.com/p/your-startup-shouldnt-be-a-rocketship",
+  },
+  {
+    title: "Atlas AI: Post-mortem",
+    date: "Oct 2023",
     href: "https://artanis.substack.com/p/atlas-ai-part-1-everyones-got-a-gantt",
   },
 ];
