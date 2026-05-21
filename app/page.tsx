@@ -17,8 +17,8 @@ export default function Home() {
         ))}
       </p>
       <p className="my-8 text-[15px] leading-[1.65]">
-        AI PhD and former startup founder. Published 5 computer vision papers during my PhD at Warwick, including a
-        journal in PAMI and a best student paper at CVPR-W. Cofounded{" "}
+        Machine Learning PhD and former startup founder. Published 5 computer vision papers during my PhD at Warwick,
+        including a journal in PAMI and a best student paper at CVPR-W. Cofounded{" "}
         <a href={profile.links.atlas} className="ink-link">
           Atlas AI
         </a>
