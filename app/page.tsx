@@ -22,7 +22,7 @@ export default function Home() {
         <a href={profile.links.atlas} className="ink-link">
           Atlas AI
         </a>
-        , a computer vision startup that ran four years. Now building at{" "}
+        , a computer vision startup that ran four years. Now building an AI alignment platform at{" "}
         <a href={profile.links.artanis} className="ink-link">
           Artanis
         </a>
