@@ -15,6 +15,7 @@ export default function WorkPage() {
           key={w.title}
           meta={`${w.start} → ${w.end}`}
           title={w.title}
+          role={w.role}
           description={w.description}
           href={w.href}
         />

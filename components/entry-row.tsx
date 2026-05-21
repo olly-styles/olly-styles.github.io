@@ -3,12 +3,13 @@ import { iconFor } from "@/components/icons";
 type Props = {
   meta: string;
   title: string;
+  role?: string;
   description?: string;
   href?: string;
   iconKey?: string;
 };
 
-export function EntryRow({ meta, title, description, href, iconKey }: Props) {
+export function EntryRow({ meta, title, role, description, href, iconKey }: Props) {
   const icon = iconFor(iconKey);
   const inner = (
     <div className="flex items-start gap-4 border-b border-line py-3 last:border-b-0">
@@ -22,7 +23,13 @@ export function EntryRow({ meta, title, description, href, iconKey }: Props) {
         <div className={`text-[15px] font-medium ${href ? "transition-colors group-hover:text-accent" : ""}`}>
           {title}
         </div>
-        {description ? <div className="mt-0.5 text-sm text-muted">{description}</div> : null}
+        {role || description ? (
+          <div className="mt-0.5 text-sm text-muted">
+            {role ? <span className="font-semibold text-ink">{role}.</span> : null}
+            {role && description ? " " : null}
+            {description}
+          </div>
+        ) : null}
       </div>
     </div>
   );

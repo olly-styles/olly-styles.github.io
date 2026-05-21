@@ -37,6 +37,7 @@ export default function Home() {
           iconKey={w.iconKey}
           meta={`${w.start} → ${w.end}`}
           title={w.title}
+          role={w.role}
           description={w.description}
           href={w.href}
         />

@@ -18,6 +18,7 @@ export const profile = {
 
 export type WorkEntry = {
   title: string;
+  role: string;
   description: string;
   start: string;
   end: string;
@@ -28,7 +29,8 @@ export type WorkEntry = {
 export const work: WorkEntry[] = [
   {
     title: "Artanis",
-    description: "Founding engineer. AI alignment platform for keeping model behavior consistent as products evolve.",
+    role: "Founding engineer",
+    description: "AI alignment platform for keeping model behavior consistent as products evolve.",
     start: "2024",
     end: "now",
     href: "https://artanis.ai",
@@ -36,7 +38,8 @@ export const work: WorkEntry[] = [
   },
   {
     title: "Multiverse",
-    description: "Senior ML Engineer. AI-native learning platform.",
+    role: "Senior ML Engineer",
+    description: "AI-native learning platform.",
     start: "2023",
     end: "2024",
     href: "https://www.multiverse.io",
@@ -44,7 +47,8 @@ export const work: WorkEntry[] = [
   },
   {
     title: "Atlas AI",
-    description: "Cofounder & CTO. Computer vision startup for personal training.",
+    role: "Cofounder & CTO",
+    description: "Computer vision startup for personal training.",
     start: "2019",
     end: "2023",
     href: "https://artanis.substack.com/p/atlas-ai-part-1-everyones-got-a-gantt",
