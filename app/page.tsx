@@ -16,15 +16,20 @@ export default function Home() {
         ))}
       </p>
       <p className="my-8 text-[15px] leading-[1.65]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Previously cofounded{" "}
+        AI PhD and former startup founder. I trained my first neural net in 2015 and never really stopped. Published 5
+        computer vision papers during my PhD at{" "}
+        <a href="https://warwick.ac.uk/" className="ink-link">
+          Warwick
+        </a>
+        , including a journal in PAMI and a best student paper at CVPR-W. Cofounded{" "}
         <a href={profile.links.atlas} className="ink-link">
           Atlas AI
         </a>
-        , a computer vision startup. Now building at{" "}
+        , a computer vision startup that ran four years before we wound it down. Now building at{" "}
         <a href={profile.links.artanis} className="ink-link">
           Artanis
         </a>
-        . Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        .
       </p>
       <SocialIcons />
 
@@ -42,10 +47,10 @@ export default function Home() {
       <SectionHeading>publications</SectionHeading>
       {publications.map((p) => (
         <EntryRow
-          key={p.title}
+          key={`${p.title}-${p.venue}-${p.year}`}
           meta={`${p.venue} ${p.year}`}
           title={p.title}
-          description={p.note ?? p.authors}
+          description={p.note ? `${p.note} — ${p.authors}` : p.authors}
           href={p.href}
         />
       ))}
@@ -65,7 +70,7 @@ export default function Home() {
 
       <SectionHeading>writing</SectionHeading>
       {posts.map((p) => (
-        <EntryRow key={p.slug} meta={p.date} title={p.title} />
+        <EntryRow key={p.href} meta={p.date} title={p.title} href={p.href} />
       ))}
     </main>
   );

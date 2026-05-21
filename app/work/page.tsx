@@ -1,6 +1,6 @@
 import { EntryRow } from "@/components/entry-row";
 import { SectionHeading } from "@/components/section-heading";
-import { publications, work } from "@/lib/content";
+import { education, publications, visiting, work } from "@/lib/content";
 
 export default function WorkPage() {
   return (
@@ -19,13 +19,33 @@ export default function WorkPage() {
         />
       ))}
 
+      <SectionHeading>education</SectionHeading>
+      {education.map((e) => (
+        <EntryRow
+          key={e.degree + e.institution}
+          meta={`${e.start} → ${e.end}`}
+          title={e.degree}
+          description={e.institution}
+        />
+      ))}
+
+      <SectionHeading>visiting researcher</SectionHeading>
+      {visiting.map((v) => (
+        <EntryRow
+          key={v.institution}
+          meta={`${v.start.slice(-4)} → ${v.end.slice(-4)}`}
+          title={v.institution}
+          description={`with ${v.supervisor}`}
+        />
+      ))}
+
       <SectionHeading>publications</SectionHeading>
       {publications.map((p) => (
         <EntryRow
-          key={p.title}
+          key={`${p.title}-${p.venue}-${p.year}`}
           meta={`${p.venue} ${p.year}`}
           title={p.title}
-          description={p.note ?? p.authors}
+          description={p.note ? `${p.note} — ${p.authors}` : p.authors}
           href={p.href}
         />
       ))}
