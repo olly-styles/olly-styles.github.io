@@ -1,0 +1,41 @@
+exclude: ^(node_modules|\.next|out|build)
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-json
+      - id: pretty-format-json
+        args: ["--autofix", "--no-sort-keys"]
+        exclude: (^|/)(package-lock\.json|package\.json|tsconfig\.json)$
+      - id: check-yaml
+      - id: detect-private-key
+      - id: check-merge-conflict
+      - id: end-of-file-fixer
+
+  - repo: local
+    hooks:
+      - id: prettier
+        name: Prettier
+        entry: pnpm prettier
+        args: ["--write", "--print-width", "120"]
+        files: .*\.(js|jsx|ts|tsx|css|scss|md|mdx)$
+        exclude: ^(node_modules|\.next|out|build|dist|coverage)/
+        language: system
+        pass_filenames: true
+        stages: [pre-commit]
+
+      - id: eslint
+        name: ESLint (fix)
+        entry: pnpm eslint
+        args: ["--fix", "--max-warnings", "0", "--no-warn-ignored"]
+        files: .*\.(ts|tsx)$
+        language: system
+        pass_filenames: true
+        stages: [pre-commit]
+
+      - id: tsc
+        name: tsc
+        entry: pnpm exec tsc --noEmit
+        language: system
+        pass_filenames: false
+        files: \.(ts|tsx)$
