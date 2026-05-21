@@ -10,8 +10,8 @@ export default function Icon() {
       style={{
         width: "100%",
         height: "100%",
-        background: "#ff5c1c",
-        color: "#fafafa",
+        background: "#fafafa",
+        color: "#ff5c1c",
         fontSize: 44,
         fontWeight: 600,
         fontFamily: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Courier New', monospace",
