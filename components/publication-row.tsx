@@ -31,11 +31,11 @@ export function PublicationRow({ iconKey, title, authors, note, venue, year, hre
         <div className="mt-1 text-sm text-muted">
           {authors}
           {note ? (
-            <>
-              <span className="mx-1.5 text-base leading-none text-accent">•</span>
+            <div className="whitespace-nowrap">
+              <span className="mr-1.5 text-base leading-none text-accent">•</span>
               <span className="font-semibold">{note}</span>
-              <span className="mx-1.5 text-base leading-none text-accent">•</span>
-            </>
+              <span className="ml-1.5 text-base leading-none text-accent">•</span>
+            </div>
           ) : null}
         </div>
       </div>
