@@ -28,7 +28,7 @@ export type WorkEntry = {
 export const work: WorkEntry[] = [
   {
     title: "Artanis",
-    description: "AI alignment platform for keeping model behavior consistent as products evolve.",
+    description: "Founding engineer. AI alignment platform for keeping model behavior consistent as products evolve.",
     start: "2024",
     end: "now",
     href: "https://artanis.ai",
@@ -36,7 +36,7 @@ export const work: WorkEntry[] = [
   },
   {
     title: "Multiverse",
-    description: "Senior ML Engineer.",
+    description: "Senior ML Engineer. AI-native learning platform.",
     start: "2023",
     end: "2024",
     href: "https://www.multiverse.io",
