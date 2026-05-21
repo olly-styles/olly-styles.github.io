@@ -32,8 +32,9 @@ export function PublicationRow({ iconKey, title, authors, note, venue, year, hre
           {authors}
           {note ? (
             <>
-              <span className="mx-1.5 text-accent">·</span>
-              {note}
+              <span className="mx-1.5 text-base leading-none text-accent">•</span>
+              <span className="font-semibold">{note}</span>
+              <span className="mx-1.5 text-base leading-none text-accent">•</span>
             </>
           ) : null}
         </div>

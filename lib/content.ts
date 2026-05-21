@@ -137,7 +137,7 @@ export const publications: Publication[] = [
     authors: "Styles, Guha, Sanchez, Kot",
     venue: "CVPR-W",
     year: "'20",
-    note: "Best student paper award",
+    note: "Best student paper",
     href: "https://openaccess.thecvf.com/content_CVPRW_2020/papers/w66/Styles_Multi-Camera_Trajectory_Forecasting_Pedestrian_Trajectory_Prediction_in_a_Network_of_CVPRW_2020_paper.pdf",
     code: "https://github.com/olly-styles/Multi-Camera-Trajectory-Forecasting",
     iconKey: "mctf",
