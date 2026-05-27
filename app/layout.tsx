@@ -1,19 +1,23 @@
 import "./globals.css";
 
 import type { Metadata, Viewport } from "next";
-import { IBM_Plex_Mono, Inter } from "next/font/google";
+import localFont from "next/font/local";
 
 import { SiteNav } from "@/components/site-nav";
 
-const inter = Inter({
+const inter = localFont({
   variable: "--font-inter",
-  subsets: ["latin"],
+  src: "./fonts/InterVariable.woff2",
+  display: "swap",
 });
 
-const plexMono = IBM_Plex_Mono({
+const plexMono = localFont({
   variable: "--font-plex-mono",
-  subsets: ["latin"],
-  weight: ["400", "500"],
+  display: "swap",
+  src: [
+    { path: "./fonts/IBMPlexMono-Regular.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/IBMPlexMono-Medium.woff2", weight: "500", style: "normal" },
+  ],
 });
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://olly-styles.github.io";

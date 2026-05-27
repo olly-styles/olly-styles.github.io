@@ -30,14 +30,13 @@ export default function Home() {
       </p>
       <SocialIcons />
 
-      <SectionHeading>work</SectionHeading>
+      <SectionHeading id="work">work</SectionHeading>
       {work.map((w) => (
         <EntryRow
           key={w.title}
           iconKey={w.iconKey}
           meta={`${w.start} → ${w.end}`}
           title={w.title}
-          role={w.role}
           description={w.description}
           href={w.href}
         />
@@ -69,20 +68,16 @@ export default function Home() {
         />
       ))}
 
-      <SectionHeading>writing</SectionHeading>
+      <SectionHeading id="writing">writing</SectionHeading>
       {posts.map((p) => (
         <EntryRow key={p.href} iconKey={p.iconKey} meta={p.date} title={p.title} href={p.href} />
       ))}
 
       <SectionHeading>things I believe</SectionHeading>
       <ul>
-        {beliefs.map((b, i) => (
-          <li
-            key={b}
-            className="grid grid-cols-[110px_1fr] items-baseline gap-6 border-b border-line py-3 last:border-b-0"
-          >
-            <div className="pt-px font-mono text-xs text-muted">{String(i + 1).padStart(2, "0")}</div>
-            <div className="text-[15px]">{b}</div>
+        {beliefs.map((b) => (
+          <li key={b} className="border-b border-line py-3 text-[15px] last:border-b-0">
+            {b}
           </li>
         ))}
       </ul>

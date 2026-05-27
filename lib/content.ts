@@ -18,7 +18,6 @@ export const profile = {
 
 export type WorkEntry = {
   title: string;
-  role: string;
   description: string;
   start: string;
   end: string;
@@ -28,27 +27,24 @@ export type WorkEntry = {
 
 export const work: WorkEntry[] = [
   {
-    title: "Artanis",
-    role: "Founding engineer",
-    description: "AI alignment platform for keeping model behavior consistent as products evolve.",
+    title: "Founding engineer",
+    description: "Artanis: AI alignment platform for keeping model behavior consistent in production",
     start: "2024",
     end: "now",
     href: "https://artanis.ai",
     iconKey: "artanis",
   },
   {
-    title: "Multiverse",
-    role: "Senior ML Engineer",
-    description: "AI-native learning platform.",
+    title: "Senior ML Engineer",
+    description: "Multiverse: AI-native learning platform",
     start: "2023",
     end: "2024",
     href: "https://www.multiverse.io",
     iconKey: "multiverse",
   },
   {
-    title: "Atlas AI",
-    role: "Cofounder & CTO",
-    description: "Computer vision startup for personal training.",
+    title: "Cofounder & CTO",
+    description: "Atlas AI: Computer vision startup for personal training",
     start: "2019",
     end: "2023",
     href: "https://artanis.substack.com/p/atlas-ai-part-1-everyones-got-a-gantt",
@@ -166,7 +162,7 @@ export const publications: Publication[] = [
   },
 ];
 
-export const beliefs: string[] = ["Simplicity is worth the effort.", "Trying makes it fun.", "Honesty is faster."];
+export const beliefs: string[] = ["Simplicity is worth the effort", "Trying makes it fun", "Honesty is faster"];
 
 export type Post = {
   title: string;
@@ -186,11 +182,6 @@ export const posts: Post[] = [
     title: "Why Bikeshedding Kills So Many AI Projects",
     date: "Jul 2025",
     href: "https://artanis.substack.com/p/why-bikeshedding-kills-so-many-ai",
-  },
-  {
-    title: "Don't Write Prompts. Write Policies.",
-    date: "Mar 2025",
-    href: "https://artanis.substack.com/p/dont-write-prompts-write-policies",
   },
   {
     title: "Policy: The Missing Core of the AI Stack",

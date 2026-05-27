@@ -1,6 +1,6 @@
-export function SectionHeading({ children }: { children: React.ReactNode }) {
+export function SectionHeading({ id, children }: { id?: string; children: React.ReactNode }) {
   return (
-    <h2 className="mt-12 mb-4 font-mono text-xs uppercase tracking-wide text-muted">
+    <h2 id={id} className="mt-12 mb-4 scroll-mt-20 font-mono text-xs uppercase tracking-wide text-muted">
       <span className="text-accent">— </span>
       {children}
     </h2>

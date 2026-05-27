@@ -14,18 +14,22 @@ export function EntryRow({ meta, title, role, description, href, iconKey }: Prop
   const inner = (
     <div className="flex items-start gap-4 border-b border-line py-3 last:border-b-0">
       {icon ? <div className="flex h-[54px] w-[80px] flex-shrink-0 items-center justify-center">{icon}</div> : null}
-      <div
-        className={`flex-shrink-0 pt-px font-mono text-xs text-muted ${icon ? "w-[110px]" : "w-[110px]"} ${href ? "transition-colors group-hover:text-accent" : ""}`}
-      >
-        {meta}
-      </div>
       <div className="min-w-0 flex-1">
-        <div className={`text-[15px] font-medium ${href ? "transition-colors group-hover:text-accent" : ""}`}>
-          {title}
+        <div className="flex items-baseline justify-between gap-3">
+          <div
+            className={`text-[15px] font-medium leading-snug ${href ? "transition-colors group-hover:text-accent" : ""}`}
+          >
+            {title}
+          </div>
+          <div
+            className={`whitespace-nowrap font-mono text-xs text-muted ${href ? "transition-colors group-hover:text-accent" : ""}`}
+          >
+            {meta}
+          </div>
         </div>
         {role || description ? (
-          <div className="mt-0.5 text-sm text-muted">
-            {role ? <span>{role}.</span> : null}
+          <div className="mt-1 text-sm text-muted">
+            {role ? <span>{role}</span> : null}
             {role && description ? " " : null}
             {description}
           </div>
