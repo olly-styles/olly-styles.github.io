@@ -69,6 +69,11 @@ export default function Home() {
         />
       ))}
 
+      <SectionHeading>writing</SectionHeading>
+      {posts.map((p) => (
+        <EntryRow key={p.href} iconKey={p.iconKey} meta={p.date} title={p.title} href={p.href} />
+      ))}
+
       <SectionHeading>things I believe</SectionHeading>
       <ul>
         {beliefs.map((b, i) => (
@@ -81,11 +86,6 @@ export default function Home() {
           </li>
         ))}
       </ul>
-
-      <SectionHeading>writing</SectionHeading>
-      {posts.map((p) => (
-        <EntryRow key={p.href} iconKey={p.iconKey} meta={p.date} title={p.title} href={p.href} />
-      ))}
     </main>
   );
 }

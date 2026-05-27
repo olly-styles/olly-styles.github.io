@@ -166,13 +166,7 @@ export const publications: Publication[] = [
   },
 ];
 
-export const beliefs: string[] = [
-  "Simplicity is worth the effort.",
-  "Trying hard makes it fun.",
-  "Pain is not a unit of effort.",
-  "Honesty is faster.",
-  "Striving makes it worthwhile.",
-];
+export const beliefs: string[] = ["Simplicity is worth the effort.", "Trying makes it fun.", "Honesty is faster."];
 
 export type Post = {
   title: string;
