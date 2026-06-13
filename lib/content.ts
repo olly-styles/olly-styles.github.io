@@ -1,6 +1,6 @@
 export const profile = {
   name: "Olly Styles",
-  tagline: ["Machine learning researcher and engineer specialising in agent evaluations"],
+  tagline: ["ml-engineer", "researcher", "founder"],
   location: "London",
   links: {
     atlas: "https://artanis.substack.com/p/atlas-ai-part-1-everyones-got-a-gantt",
@@ -36,7 +36,7 @@ export const work: WorkEntry[] = [
   },
   {
     title: "Senior ML Engineer",
-    description: "Multiverse: AI-native learning platform",
+    description: "Multiverse: Upskilling platform for AI adoption",
     start: "2024",
     end: "2025",
     href: "https://www.multiverse.io",
