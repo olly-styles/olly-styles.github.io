@@ -17,8 +17,15 @@ export default function Home() {
         ))}
       </p>
       <p className="my-8 text-[15px] leading-[1.65]">
-        Machine Learning PhD and startup founder focused on data and evals. Published 5 computer vision papers during my
-        PhD at Warwick, including a journal in PAMI and a best student paper at CVPR-W. Cofounded{" "}
+        AI engineer specialising in agent and LLM evaluation. Author of{" "}
+        <a href={profile.links.workbench} className="ink-link">
+          WorkBench
+        </a>{" "}
+        (COLM 2024), a benchmark for tool-using agents, and{" "}
+        <a href={profile.links.workbenchRevisited} className="ink-link">
+          WorkBench Revisited
+        </a>{" "}
+        (2026). Machine Learning PhD from Warwick. Cofounded{" "}
         <a href={profile.links.atlas} className="ink-link">
           Atlas AI
         </a>
