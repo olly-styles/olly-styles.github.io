@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     default: "Olly Styles",
     template: "%s · Olly Styles",
   },
-  description: "ML engineer, researcher, ex-founder.",
+  description: "AI engineer specialising in agent and LLM evaluation. Author of WorkBench.",
   openGraph: {
     title: "Olly Styles",
-    description: "ML engineer, researcher, ex-founder.",
+    description: "AI engineer specialising in agent and LLM evaluation. Author of WorkBench.",
     url: siteUrl,
     siteName: "Olly Styles",
     type: "website",

@@ -1,10 +1,12 @@
 export const profile = {
   name: "Olly Styles",
-  tagline: ["ml-engineer", "researcher", "founder"],
+  tagline: ["ai-engineer", "evals", "founder"],
   location: "London",
   links: {
     atlas: "https://artanis.substack.com/p/atlas-ai-part-1-everyones-got-a-gantt",
     artanis: "https://artanis.ai",
+    workbench: "https://arxiv.org/abs/2405.00823",
+    workbenchRevisited: "https://arxiv.org/abs/2606.13715",
     substack: "https://artanis.substack.com",
     warwick: "https://warwick.ac.uk/fac/sci/dcs/",
   },
@@ -27,9 +29,9 @@ export type WorkEntry = {
 
 export const work: WorkEntry[] = [
   {
-    title: "Founding engineer",
+    title: "Founding AI Engineer",
     description: "Artanis: AI alignment platform for keeping model behavior consistent in production",
-    start: "2024",
+    start: "2025",
     end: "now",
     href: "https://artanis.ai",
     iconKey: "artanis",
@@ -43,7 +45,7 @@ export const work: WorkEntry[] = [
     iconKey: "multiverse",
   },
   {
-    title: "Cofounder & CTO",
+    title: "Cofounder",
     description: "Atlas AI: Computer vision startup for personal training",
     start: "2019",
     end: "2023",
@@ -79,19 +81,6 @@ export const education: EducationEntry[] = [
   },
 ];
 
-export type VisitingStint = {
-  institution: string;
-  supervisor: string;
-  start: string;
-  end: string;
-};
-
-export const visiting: VisitingStint[] = [
-  { institution: "Nanyang Technological University", supervisor: "Alex Kot", start: "Aug 2019", end: "Dec 2019" },
-  { institution: "Michigan State University, iProbe Lab", supervisor: "Arun Ross", start: "Sep 2018", end: "Dec 2018" },
-  { institution: "University of Sydney", supervisor: "Dong Xu", start: "Mar 2018", end: "Jul 2018" },
-];
-
 export type Publication = {
   title: string;
   authors: string;
@@ -105,6 +94,15 @@ export type Publication = {
 };
 
 export const publications: Publication[] = [
+  {
+    title: "WorkBench Revisited: Workplace Agents Two Years On",
+    authors: "Styles",
+    venue: "Preprint",
+    year: "'26",
+    href: "https://arxiv.org/abs/2606.13715",
+    code: "https://github.com/olly-styles/WorkBench",
+    iconKey: "workbench",
+  },
   {
     title: "WorkBench: A Benchmark Dataset for Agents in a Realistic Workplace Setting",
     authors: "Styles, Miller, Cerda-Mardini, Guha, Sanchez, Vidgen",
