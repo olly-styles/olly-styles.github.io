@@ -18,6 +18,9 @@ export function SiteNav() {
             {l.label}
           </Link>
         ))}
+        <a href="/Olly_Styles_CV.pdf" className="transition-colors hover:text-accent">
+          cv
+        </a>
       </div>
     </nav>
   );
